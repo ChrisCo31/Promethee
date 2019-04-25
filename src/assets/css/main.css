@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    background-color: #02A676;
+    color: white;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, a, article,
+footer, header, menu,
+section {
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.35em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 0.9em;
+}
+
+h6 {
+    font-size: 0.7em;
+}
+#header {
+	width:100%;
+    height:300px;
+    padding:40px;
+    background-color:o#010626;
+    text-align: center;
+	}
+#articles {
+    height:100%;
+    
+}
+#first {
+    height:100%;
+    display: flex;
+}
+#box_1 {
+    background-color: #021B26;
+    width: 30%;
+    height: 400px;
+    padding: 20px;
+    
+  }
+
+#box_2 {
+    background-color: #CCEDF0;
+    width: 70%;
+    height: 400px;
+    padding: 20px;
+    color: black;
+    
+  }
+#second {
+    height:100%;
+    display: flex;
+}
+#box_3 {
+    background-color: #003940;
+    width: 40%;
+    height: 400px;
+    padding: 20px;
+    
+  }
+
+  #third {
+    height:100%;
+    display: flex;
+}
+#box_4 {
+    background-color: #216873;
+    width: 33%;
+    height: 300px;
+    padding: 20px;
+    
+  }
+
+#box_5 {
+    background-color: #002129;
+    width: 34%;
+    height: 300px;
+    padding: 20px;
+    
+  }
+
+#box_6 {
+    background-color: #CCEDF0;
+    width: 33%;
+    height: 300px;
+    padding: 20px;
+    color: black;
+    
+  }
+#footer {
+    font-size: 1em;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#link {
+    display:block;
+    width:100%;
+    height:100%;
+}
+a:link
+{
+text-decoration:none;
+} 
+.icons{
+    font-size: 50px;
+}
