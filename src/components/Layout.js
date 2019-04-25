@@ -1,14 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import '../assets/css/main.css'
-import Header from './Header'
+import Menu from "./Menu";
+import Banner from "./Banner";
 import Footer from './Footer'
+
 
 
 const Layout = ({ children}) => {
     return (
             <div className="siteContent">
-              <Header />
+              <Menu />
+              <Banner />            
               {children}
               <Footer />            
             </div>

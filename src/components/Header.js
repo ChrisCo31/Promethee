@@ -1,17 +1,13 @@
 import React from 'react'
 
-const Header = (props) => (
-    <section id="header">
-        <div className="headerComp">
-            <header className="title">
-                <h1>JDAgency</h1>
-            </header>
-            <div className="content">
-                <h3> Votre partenaire </h3>
-                <h3> pour Elaborer, Concevoir, Construire, Connecter .....</h3>
-            </div>
-        </div>
-    </section>
-)
+import Menu from "./Menu";
+import Banner from "./Banner";
 
-export default Header
+const Header = (props) => (
+    <header id="home">
+    <Menu />
+    <Banner />
+  </header>
+);
+
+export default Header;
