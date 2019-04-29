@@ -5,19 +5,33 @@ const Contact = (props) => (
         <section>
             <form name="contact" method="post">
                 <div className="fieldName">
-                        <label htmlFor="name">Nom</label>
-                        <input type="text" name="name" id="name" />
+                    <div className="col-25">
+                            <label htmlFor="name">Nom</label>
+                    </div>
+                    <div className="col-75">
+                            <input type="text" name="name" id="name" />
+                    </div>
                 </div>
                 <div className="fieldEmail">
+                    <div className="col-25">
                         <label htmlFor="email">Email</label>
+                    </div>
+                    <div className="col-75">
                         <input type="text" name="email" id="email" />
+                     </div>   
                 </div>
                 <div className="fieldMessage">
-                        <label htmlFor="message"> Parlez nous de vous</label>
+                    <div className="col-25">
+                            <label htmlFor="message"> Parlez nous de vous</label>
+                    </div>
+                    <div className="col-75">
                         <textarea name="message" id="message" rows="6"></textarea>
+                    </div>    
                 </div>
                 <ul className="actions">
+                    <div className="col-75">
                         <input type="submit" value="Envoyer" className="special" />
+                    </div>    
                 </ul>            
             </form>
         </section>
