@@ -8,7 +8,7 @@ const Banner = () => (
             <h1>JDAgency</h1>
         </header>
         <div className="content">
-        <h3>Votre parteniare ESS</h3></div>
+        <h3>Votre partenaire ESS</h3></div>
     </div>
   </section>
 );

@@ -2,6 +2,7 @@
 @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 @import 'menu.css';
 @import 'footer.css';
+@import 'contact.css';
 body {
     font-family: "Raleway", sans-serif;
     font-size: 12px;
@@ -51,9 +52,10 @@ h6 {
 
 
 #articles {
-    height:100%;
+    height:100%;   
     
 }
+
 #first {
     height:100%;
     display: flex;
@@ -62,16 +64,15 @@ h6 {
     background-color: #021B26;
     width: 30%;
     height: 400px;
-    padding: 20px;
+
     
   }
 
 #box_2 {
-    background-color: #CCEDF0;
+    background-color: #007369;
     width: 70%;
     height: 400px;
-    padding: 20px;
-    color: black;
+    color: black !important;
     
   }
 #second {
@@ -82,9 +83,17 @@ h6 {
     background-color: #003940;
     width: 40%;
     height: 400px;
-    padding: 20px;
-    
+    padding: 50px;
+    border-radius: 0.1em;
   }
+#box_contact {
+    background-color: #00BAB5;
+    width: 60%;
+    height: 400px;
+    padding: 50px;
+    border-radius: 0.1em;
+  }
+
 
 #third {
     height:100%;
@@ -94,7 +103,6 @@ h6 {
     background-color: #216873;
     width: 33%;
     height: 300px;
-    padding: 20px;
     
   }
 
@@ -102,15 +110,74 @@ h6 {
     background-color: #002129;
     width: 34%;
     height: 300px;
-    padding: 20px;
     
   }
 
 #box_6 {
-    background-color: #CCEDF0;
+    background-color: #007369;
     width: 33%;
     height: 300px;
-    padding: 20px;
     color: black;
     
   }
+.zoom {
+    padding: 50px;
+    transition: transform .4s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 0.1em;
+
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); 
+  }
+/*=====================================================**
+**                  MEDIA QUERIES                      **
+**=====================================================*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background: red;
+    font-size: 15px;
+    color: black;
+  }
+  
+  #box_1 {
+    background : greenyellow;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background: green;
+  
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background: blue;
+  
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ body {
+   background: orange;
+  
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: pink;
+  
+  }
+}

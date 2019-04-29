@@ -1,4 +1,15 @@
-
 import React from 'react'
+import Layout from '../components/Layout'
 
-export default () => <div>Prestations.js</div>
+
+class Prestations extends React.Component {
+    render () {
+        return (
+            <Layout>
+                  
+            </Layout>
+            
+        )
+    }
+}
+export default Prestations

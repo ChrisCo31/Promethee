@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/Layout'
+import Contact from '../components/Contact'
 
 class HomeIndex extends React.Component {
     render () {
@@ -27,7 +28,7 @@ class HomeIndex extends React.Component {
                             </article>
                         </div>
                         <div id="second">
-                        <article class="article" id="box_3">
+                        <article  class ="zoom" id="box_3">
                             <Link to="/realisations" id="link" >
                                 <header className="major">
                                     <h3>Realisations</h3>
@@ -35,9 +36,12 @@ class HomeIndex extends React.Component {
                                 </header>
                             </Link>
                         </article>
+                        <article id="box_contact">
+                            <Contact />
+                        </article>
                         </div>
                         <div id="third">
-                            <article class="article" id="box_4" >
+                            <article class="zoom" id="box_4" >
                             <Link to="/partenariats" id="link" >
                                 <header className="major">
                                     <h3>partenariat</h3>
@@ -45,7 +49,7 @@ class HomeIndex extends React.Component {
                                 </header>
                             </Link>
                             </article>
-                            <article class="article" id="box_5">
+                            <article class="zoom" id="box_5">
                                 <Link to="/equipe" id="link" >
                                     <header className="major">
                                         <h3>Equipe</h3>
@@ -53,7 +57,7 @@ class HomeIndex extends React.Component {
                                     </header>
                                 </Link>
                             </article>
-                            <article class="article" id="box_6" >
+                            <article class="zoom" id="box_6" >
                                 <Link to="/blog" id="link" >
                                     <header className="major">
                                         <h3>Blog</h3>
@@ -65,8 +69,7 @@ class HomeIndex extends React.Component {
                     </section>
                    
                   </div>
-            </Layout>
-            
+            </Layout>   
         )
     }
 }

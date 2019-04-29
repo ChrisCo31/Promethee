@@ -1,12 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import logo from '../assets/pictures/logo.png';
 
 const Menu = (props) => (
     <div className="navBar">
         <div className="navLogo">
-            <a href="#accueil"><img src={logo} alt="Logo JDAgency" title="JDAgency Logo"/></a>
+        <Link to="/"><img src={logo} alt="Logo JDAgency" title="JDAgency Logo"/></Link>
         </div>
         <nav className="navMenu size10">
             <label for="show-menu" class="show-menu">
@@ -14,7 +13,7 @@ const Menu = (props) => (
             </label>
             <input type="checkbox" id="show-menu" />
             <ul id="navMenu">  
-                <li><Link to="/">Home</Link></li>
+                
                 <li><Link to="/ess">ESS ?</Link></li>
                 <li><Link to="/prestations">Services</Link></li>
                 <li><Link to="/realisations">Realisations</Link></li>
