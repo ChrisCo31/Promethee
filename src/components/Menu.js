@@ -16,8 +16,7 @@ const Menu = (props) => (
                 
                 <li><Link to="/ess">ESS ?</Link></li>
                 <li><Link to="/prestations">Services</Link></li>
-                <li><Link to="/realisations">Realisations</Link></li>
-                <li><Link to="/partenariats">Partenariat</Link></li>
+                <li><Link to="/realisations">Projets</Link></li>
                 <li><Link to="/equipe">Equipe</Link></li>
                 <li><Link to="/blog">Blog</Link></li>
                 </ul>

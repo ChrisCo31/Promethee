@@ -3,6 +3,8 @@
 @import 'menu.css';
 @import 'footer.css';
 @import 'contact.css';
+@import 'blogIndex.css';
+
 body {
     font-family: "Raleway", sans-serif;
     font-size: 12px;
@@ -50,7 +52,9 @@ h6 {
     padding-top: 250px;
 }
 
-
+/*=====================================================**
+**                  INDEX                             **
+**=====================================================*/
 #articles {
     height:100%;   
     
@@ -133,6 +137,150 @@ h6 {
   .zoom:hover {
     transform: scale(1.1); 
   }
+/*=====================================================**
+**                  ESS                                **
+**=====================================================*/
+
+#ess {
+  height:100%;
+  display: flex;
+  background-color: #003940;
+}
+#box_7 {
+  width: 40%;
+  height: 400px;
+}
+#box_8 {
+  width: 60%;
+  height: 210px;
+}
+#box_9 {
+  width: 60%;
+  height: 210px;
+}
+#box_10 {
+  width: 40%;
+  height: 210px;
+}
+.ess_pic img{
+filter: brightness(80%);
+-webkit-filter: brightness(80%);
+border-radius: 1%;
+}
+
+.ess-head {
+  background-color: #003940;
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 5%;
+  border-radius: 1%;
+  width: 60%;
+  height: 210px;  
+}
+.ess-cont{
+  background-color: #003940;
+  text-align: center;
+  padding: 5%;
+  border-radius: 1%;
+  width: 40%;
+  height: 210px;  
+}
+
+ul {
+  list-style:none;
+  margin-left:0;
+  padding-left:0;
+  }
+  li {
+  margin-bottom:15px;/* à adapter */
+  }
+/*=====================================================**
+**                  PRESTATIONS                                **
+**=====================================================*/
+body {
+  padding: 0;
+  margin: 0;
+}
+.universe {
+  display: flex;
+  height: 100vh;
+}
+.theme {
+  transition: 0.5s;
+  flex-grow: 2;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.details {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 15px;
+  background: #021B26;
+  transform: translateX(-10px);
+}
+.theme:after {
+  content: '';
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: 1s;
+}
+.theme:hover {
+  flex-grow: 3
+}
+.theme:hover:after{
+  opacity: 0;
+}
+.theme:hover > .details {
+  transform: translateX(0);
+  transition: transform 0.5s;
+  transition-delay: 0.5s;
+  text-align: justify;
+}
+
+.theme:nth-child(1){
+  background-image: url('https://cdn.pixabay.com/photo/2017/02/01/10/19/creature-2029421_960_720.png')
+}
+.theme:nth-child(2){
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/29/20/54/tree-1781547_960_720.png')
+}
+.theme:nth-child(3){
+  background-image: url('https://cdn.pixabay.com/photo/2017/01/31/08/26/animal-2023216_960_720.png')
+}
+.theme:nth-child(4){
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/27/16/01/cat-1775543_960_720.png')
+}
+.theme:nth-child(5){
+  background-image: url('https://cdn.pixabay.com/photo/2017/10/16/21/58/seahorse-2858708_960_720.png')
+}
+
+#contact {
+
+border-radius: 0.1em;
+}
+
+/*=====================================================**
+**                  BLOG                            **
+**=====================================================*/
+
+.blogPrez {
+
+  background-color: rgb(12, 32, 41);
+  height: auto;
+  padding: 30px;
+  margin: 0 auto;
+  
+
+}
 /*=====================================================**
 **                  MEDIA QUERIES                      **
 **=====================================================*/

@@ -1,0 +1,19 @@
+
+.blogArticle {
+    
+    margin: 150 auto;
+
+}
+img {
+    border-radius: 1%;
+    
+}
+.headArticle {
+    padding-top: 20px;
+}
+.textArticle {
+    width:100%;
+    padding: 25px;
+    margin: 0 auto;
+    vertical-align: baseline;
+}

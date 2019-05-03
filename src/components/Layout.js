@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom';
+
 import '../assets/css/main.css'
 import Menu from "./Menu";
 import Banner from "./Banner";

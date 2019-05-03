@@ -10,7 +10,7 @@ class HomeIndex extends React.Component {
                   <div id="main">
                     <section id="articles" className="titles">
                         <div id="first">
-                            <article class="zoom" id="box_1">
+                            <article className="zoom" id="box_1">
                                 <Link to="/ess" id="link" >
                                     <header className="major">
                                         <h3>ESS ?</h3>
@@ -18,7 +18,7 @@ class HomeIndex extends React.Component {
                                     </header>
                                 </Link>
                             </article>                           
-                            <article class="zoom" id="box_2">
+                            <article className="zoom" id="box_2">
                             <Link to="/prestations" id="link" >
                                 <header className="major">
                                     <h3>Services</h3>
@@ -28,10 +28,10 @@ class HomeIndex extends React.Component {
                             </article>
                         </div>
                         <div id="second">
-                        <article  class ="zoom" id="box_3">
+                        <article  className ="zoom" id="box_3">
                             <Link to="/realisations" id="link" >
                                 <header className="major">
-                                    <h3>Realisations</h3>
+                                    <h3>Projets</h3>
                                     <p>What we do</p>
                                 </header>
                             </Link>
@@ -41,7 +41,7 @@ class HomeIndex extends React.Component {
                         </article>
                         </div>
                         <div id="third">
-                            <article class="zoom" id="box_4" >
+                            <article className="zoom" id="box_4" >
                             <Link to="/partenariats" id="link" >
                                 <header className="major">
                                     <h3>partenariat</h3>
@@ -49,7 +49,7 @@ class HomeIndex extends React.Component {
                                 </header>
                             </Link>
                             </article>
-                            <article class="zoom" id="box_5">
+                            <article className="zoom" id="box_5">
                                 <Link to="/equipe" id="link" >
                                     <header className="major">
                                         <h3>Equipe</h3>
@@ -57,7 +57,7 @@ class HomeIndex extends React.Component {
                                     </header>
                                 </Link>
                             </article>
-                            <article class="zoom" id="box_6" >
+                            <article className="zoom" id="box_6" >
                                 <Link to="/blog" id="link" >
                                     <header className="major">
                                         <h3>Blog</h3>
