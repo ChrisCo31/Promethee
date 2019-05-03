@@ -248,19 +248,19 @@ body {
 }
 
 .theme:nth-child(1){
-  background-image: url('https://cdn.pixabay.com/photo/2017/02/01/10/19/creature-2029421_960_720.png')
+  background-image: url('road_00.png')
 }
 .theme:nth-child(2){
-  background-image: url('https://cdn.pixabay.com/photo/2016/10/29/20/54/tree-1781547_960_720.png')
+  background-image: url('road_01.png')
 }
 .theme:nth-child(3){
-  background-image: url('https://cdn.pixabay.com/photo/2017/01/31/08/26/animal-2023216_960_720.png')
+  background-image: url('road_02.png')
 }
 .theme:nth-child(4){
-  background-image: url('https://cdn.pixabay.com/photo/2016/10/27/16/01/cat-1775543_960_720.png')
+  background-image: url('road_03.png')
 }
 .theme:nth-child(5){
-  background-image: url('https://cdn.pixabay.com/photo/2017/10/16/21/58/seahorse-2858708_960_720.png')
+  background-image: url('road_04.png')
 }
 
 #contact {
