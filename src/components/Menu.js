@@ -1,26 +1,22 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../assets/pictures/logo.png';
+
 
 const Menu = (props) => (
     <div className="navBar">
-        <div className="navLogo">
-        <Link to="/"><img src={logo} alt="Logo JDAgency" title="JDAgency Logo"/></Link>
-        </div>
-        <nav className="navMenu size10">
-            <label for="show-menu" class="show-menu">
-                <div className="lines"><span class="fa fa-bars fa-lg"></span></div>
-            </label>
-            <input type="checkbox" id="show-menu" />
-            <ul id="navMenu">  
-                
-                <li><Link to="/ess">ESS ?</Link></li>
-                <li><Link to="/prestations">Services</Link></li>
-                <li><Link to="/realisations">Projets</Link></li>
-                <li><Link to="/equipe">Equipe</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
+       <button id="open-menu"><Link to="/"></Link></button>        
+           
+                <ul id="lateral-menu">
+                    <div id="block-menu">  
+                        <li class="menu-item draw" onclick="/"><Link to="/"><i class="icons">Home</i></Link></li>                
+                        <li class="menu-item draw" onclick="/ess"><Link to="/ess"><i class="icons">ESS ?</i></Link></li>
+                        <li class="menu-item draw" onclick="/prestations"><Link to="/prestations"><i class="icons">Services</i></Link></li>
+                        <li class="menu-item draw" onclick="/realisations"><Link to="/realisations"><i class="icons">Projets</i></Link></li>
+                        <li class="menu-item draw" onclick="/equipe"><Link to="/equipe"><i class="icons">Equipe</i></Link></li>
+                        <li class="menu-item draw" onclick="/blog"><Link to="/blog"><i class="icons">Blog</i></Link></li>
+                    </div>
                 </ul>
-        </nav>
+            
 	</div>
 );
 export default Menu;

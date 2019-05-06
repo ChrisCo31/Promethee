@@ -1,177 +1,66 @@
-#accueil {
-	display: 			flex;
-	align-items: 		center;
-	justify-content: 	center;
+
+#open-menu {
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	background-size: 60px;
+	margin-top: 10px;
+	border-radius: 20%;
+  left: -300px;
+  position: absolute;
+  width:70px;
+  height: 70px;
+	transform: translateX(320px);
+  cursor: pointer;	
 }
-/* ====== BARRE DE NAVIGATION ====== */
-.navBar {
-	position: 			fixed;
-	top: 				0;
-	right: 				0;
-	left: 				0;
-	margin-right: 		auto;
-	margin-left:  		auto;
-	display: 			flex;
-	flex-wrap: 			wrap;
-	justify-content:  	space-around;
-	align-items:		center;
-	height: 			90px;
-	width: 				100%;
-	background-color: 	#02A676;
-	z-index: 			500;
-}
-/* ======        LOGO         ====== */
-.navLogo {
-	width: 				85px;
-	max-width: 			120px;
-	margin-top: 		auto;
-	margin-bottom: 		auto;
-	position: 			fixed;
-	left: 				9rem;
-}
-.navLogo img {
-	max-width: 			261px;
-	width: 				100%;
-	margin-top: 		5px;
-  height: 			auto;
-  border-radius:      25%;
+#block-menu {
+	width: 340px;
+	height: 555px;
+	background-color: navy;
 }
 
-/* ====== BARRE DE MENUS ====== */
-.navMenu {
-	display: 			block;
-	width: 				50%;
-	background: 		#02A676;
-	line-height: 		1.6rem;
-	font-weight: 		400;
-	text-align: 		center;
-	position: 			relative;
-	margin-left: 		30%;
-	margin-top: 		1.5rem;
-	margin-right: 		10%;
-	margin-bottom: 		auto;
-}
-.navMenu ul {
-	list-style-type: 	none;
-	margin: 			0 auto;
-	padding-left: 		0;
-	text-align: 		center;
-	width: 				100%;
-	position: 			absolute;
-	background: 		#02A676;
-}
-.navMenu li {
-	display: 			inline-block;
-}
-.navMenu li a {
-	display: 			block;
-	min-width: 			8rem;
-	text-align: 		center;
-	font-family:  		'Raleway', sans-serif;
-	font-size: 			1rem;
-	background: 		#02A676;
-	text-decoration: 	none;
-	margin-left: 		0;
-	padding: 			0;
-	color: 				#ffffff;
-}
-.navMenu li:hover a {
-	color: 				#000000;
-	border-top: 		0.125rem solid #003940;
-}
-.navMenu li:hover ul a {
-	background: 		#f3f3f3;
-	color: 				#003940;
-	height: 			2.5rem;
-	line-height: 		2.5rem;
-}
-.navMenu li:hover .navMenu ul a:hover {
-	color: 				#000000;
-}
-.navMenu li ul {
-	display: 			none;
-}
-.navMenu li ul li a {
-	width: 				auto;
-	min-width: 			3.25rem;
-	padding: 			0 1.25rem;
-}
-.navMenu .show-menu {
-	text-decoration: 	none;
-	color: 				#000000;
-	background: 		#ffffff;
-	text-align: 		center;
-	padding: 			0.6rem 0.9rem;
-	display: 			none;
-	cursor: 			pointer;
-	text-transform:  	capitalize;
-}
-.navMenu .show-menu span {
-	padding-left: 		2.2rem;
-}
-.navMenu input[type=checkbox]{
-	display: 			none;
-}
-.navMenu input[type=checkbox]:checked ~ #navMenu {
-	display: 			block;
+#lateral-menu {
+  position: absolute;
+  left: -10%;
+  top: 80px;
+  width: 50px;
+  height: 100%;
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-85px);
 }
 
 
-
-
-
-
-/**
-
-#navigation {
-    width: auto;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 1.3rem;
+#open-menu:hover + #lateral-menu{
+  transition: all 0.6s ease-in-out;
+  transform: translateX(250%);
 }
-#navigation li {
-    display: inline;
-    margin: 10px ;
-    padding: 10px;
 
-  }
-  #navigation li a {
+#lateral-menu:hover {
+  transition: all 0.6s ease-in-out;
+  transform: translateX(250%);
+}
 
-    color: #fff ;
-    line-height: 1em ;
-    text-align: center ;
-    text-decoration: none ;
-    padding: 20px ;
-  }
+#lateral-menu .menu-item {
+  background:navy;
+  position: relative;
+	padding: 15px;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+}
 
-  #navigation li a:hover, #navigation li a:focus, #navigation li a:active {
-    color: orange;
-    border-bottom: 3px solid orange;
-  }
+.icons {
+  display: inline-block;
+  line-height: 0.6;
+  direction: ltr;
+	color: white;
 
-
-
-
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-  }
-nav li {
-      margin-right: 15px;    
-  }
-nav a
-  {
-      font-size: 1.3em;
-      color: black;
-      padding-bottom: 3px;
-      text-decoration: none;   
-  }
-nav a:hover
-  {
-      color: orange;
-      border-bottom: 3px solid orange;
-  }
-  **/
+	padding: 20px;
+  margin-left: 25px;
+}
+li i {
+	font-size:1px;
+}
+li:hover i{
+		color: rgba(23,170,114,1);
+}
