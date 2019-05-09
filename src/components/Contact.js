@@ -3,7 +3,8 @@ import React from "react";
 const Contact = (props) => (
     <div className="form">   
         <section>
-            <form name="contact" method="post">
+            <form name="contact" method="post" data-netlify="true" >    
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="fieldName">
                     <div className="col-25">
                             <label htmlFor="name">Nom</label>
