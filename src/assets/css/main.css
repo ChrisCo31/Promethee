@@ -71,6 +71,10 @@ h6 {
 #articles a {
   text-decoration: none;
   color: white;
+  text-align: center;
+}
+#first a h3{
+  margin-top:230px;
 }
 #first {
     height:100%;
@@ -80,8 +84,6 @@ h6 {
     background-color: #91C1E6;
     width: 30%;
     height: 500px;
-
-    
   }
 
 #box_2 {
@@ -94,6 +96,9 @@ h6 {
 #second {
     height:100%;
     display: flex;
+}
+#second a h3{
+  margin-top:230px;
 }
 #box_3 {
     background-color: #5e7cba;
@@ -114,6 +119,9 @@ h6 {
 #third {
     height:100%;
     display: flex;
+}
+#third a h3 {
+  margin-top: 130px;
 }
 #box_4 {
     background-color: #67C27D;
@@ -156,122 +164,61 @@ h6 {
 #ess {
   height:100%;
   display: flex;
-  background-color: #003940;
 }
-#box_7 {
-  width: 40%;
-  height: 400px;
-}
-#box_8 {
-  width: 60%;
-  height: 210px;
-}
+
 #box_9 {
-  width: 60%;
-  height: 210px;
-}
-#box_10 {
-  width: 40%;
-  height: 210px;
-}
-.ess_pic img{
-filter: brightness(80%);
--webkit-filter: brightness(80%);
-border-radius: 1%;
+  width: 100%;
+  height: 800px;
+  background-color: #5E8EBE;
 }
 
-.ess-head {
-  background-color: #003940;
-  text-align: center;
-  padding-top: 10%;
-  padding-left: 5%;
-  border-radius: 1%;
-  width: 60%;
-  height: 210px;  
-}
 .ess-cont{
-  background-color: #003940;
-  text-align: center;
-  padding: 5%;
-  border-radius: 1%;
-  width: 40%;
-  height: 210px;  
+  text-align: left;
+  padding-left: 10%;
+   
 }
-
-ul {
-  list-style:none;
-  margin-left:0;
-  padding-left:0;
-  }
-  li {
-  margin-bottom:15px;/* à adapter */
-  }
+#content h2 {
+  padding-top:150px;
+}
+#content h3 {
+  padding-top:50px;
+}
+#content p{
+  padding-right: 250px;
+}
+.border{
+  border-bottom:1px solid white;
+  margin-top:10px;
+  margin-right:250px;
+}
+#contact {
+  margin : 0 auto;
+  margin-top: 100px;
+  padding:50px;
+  border-radius: 0.1em;
+}
 /*=====================================================**
 **                  PRESTATIONS                                **
 **=====================================================*/
-
-.universe {
-  display: flex;
-  height: 100vh;
+.universe{
+  margin-left:60px;
+  background-color:#67C27D;
 }
-.theme {
-  transition: 0.5s;
-  flex-grow: 2;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+#conseil{
+  background-color: #5E8EBE;
 }
-.details {
-  position: absolute;
-  box-sizing: border-box;
-  padding: 15px;
-  background: #021B26;
-  transform: translateX(-10px);
+#formation{
+    background-color: #91C1E6;
+  }
+#marketing{
+    background-color: #67C27D;
+  }
+#design{
+      background-color: #00b355;
+    }
+#developpement{
+  background-color: #5E7CBA;
 }
-.theme:after {
-  content: '';
-  background-color: black;
-  opacity: 0.5;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  transition: 1s;
-}
-.theme:hover {
-  flex-grow: 3
-}
-.theme:hover:after{
-  opacity: 0;
-}
-.theme:hover > .details {
-  transform: translateX(0);
-  transition: transform 0.5s;
-  transition-delay: 0.5s;
-  text-align: justify;
-}
-
-.theme:nth-child(1){
-  background-image: url('road_00.png')
-}
-.theme:nth-child(2){
-  background-image: url('road_01.png')
-}
-.theme:nth-child(3){
-  background-image: url('road_02.png')
-}
-.theme:nth-child(4){
-  background-image: url('road_03.png')
-}
-.theme:nth-child(5){
-  background-image: url('road_04.png')
-}
-
 #contact {
   margin : 0 auto;
   margin-top: 100px;
@@ -308,6 +255,9 @@ h1 {
    -moz-transition:all 0.3s ease-in;  
    -o-transition:all 0.3s ease-in;  
    transition:all 0.3s ease-in; 
+}
+.projets  h1{
+  color:red;
 }
 .projets  h2 {
   font-size: 1em;
@@ -357,19 +307,19 @@ h1 {
 
 /*colors*/
 .p-ouvrir {
-  background: #c73412;
+  background: #5E7CBA;
 }
 .p-anticiper {
-  background: #b41212;
+  background: #5E8EBE;
 }
 .p-creer {
-  background: #981a50;
+  background: #91C1E6;
 }
 .p-adapter {
-  background: #722d78;
+  background: #67C27D;
 }
 .p-concevoir {
-  background: #4f2659;
+  background: #00B355;
 }
 
 /*=====================================================**

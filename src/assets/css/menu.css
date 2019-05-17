@@ -1,79 +1,57 @@
-.navbar
-{
-	padding:0;
-  margin:0;
-  text-align:center;
-  display:inline-block;
-  position:fixed;
-  z-index: 1;
-  top:0px;
-  height:100%;
-  width:60px;
-	background: #43464B; 
-	color: white;
-  transition:all 0.5s;
-  -webkit-transition:all 0.5s;
-}
-.navbar a {
-  color: white;
-  text-decoration: none;
-}
-
-.navbar:hover 
-{
-  width:140px;
-}
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-.subnav .subnavbtn {
-  font-size:16px; 
-  margin-top: 380px;
-  margin-left: 20px;
-  border: none;
-  outline: none;
-  color: white;
-  background-color: inherit;
-  font-family: inherit;
-  writing-mode : sideways-lr;
-}
-
-.subnav-content {
-  display: none;
-  position: absolute;
+.side-menu {
+  position: fixed;
+  top: 0;
   left: 0;
-  width: 100%;
-  z-index: 1;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 60px;
+  list-style-type: none;
+  background: black;;
+  overflow: hidden;
+  transition: width .5s;
+  z-index:3;
 }
-.subnav-content a {
-  float: left;
-  color: white;
+
+.side-menu:hover {
+  width: 400px;
+}
+.side-menu li  {
+  width: 500px;
+  font-size: 1rem;
+  margin: 20px 30px 0 62px;
+  list-style-type:none;
+}
+.side-menu h3  {
+  
+  margin-top: 180px;
+  margin-left: 65px;
+  color: #FFF;
+}
+.side-menu p  {
+  
+  padding-top:20px;
+  padding-left: 65px;
+  color: #FFF;
+}
+.side-menu ul  {
+  padding-top:120px;
+}
+.side-menu li a {
+  display: block;
+  font-size: .9rem;
   text-decoration: none;
+  color: #FFF;
+  height: 60px;
 }
 
-
-.subnav:hover .subnav-content {
+.side-menu li a:hover,
+.side-menu li:first-child a {
   display: block;
 }
-#home {
-	padding-top: 100px;
-}
-#es {
-	padding-top: 50px;
-}
-#services {
-	padding-top: 50px;
-}
-#projets {
-	padding-top: 50px;
-}
-#partenariats {
-	padding-top: 50px;
-}
-#equipe {
-	padding-top: 50px;
-}
-#blog {
-	padding-top: 50px;
+.bordermenu {
+  border-bottom:1px solid white;
+  margin-top:10px;
+  margin-left:50px;
+  margin-right:50px;
 }

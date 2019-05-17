@@ -10,7 +10,7 @@ class Prestations extends React.Component {
             <Layout>
        <div className="universe">
                 <div className="theme">
-                    <div className="details">
+                    <div id="conseil">
                     <h2>Conseils</h2>
                     <ul>
                     <li>Analyse de la performance, des indicateurs et du trafic</li>
@@ -26,7 +26,7 @@ class Prestations extends React.Component {
                     </div>
                 </div>
                 <div className="theme">
-                    <div className="details">
+                    <div id="marketing">
                     <h2>Conseils</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
@@ -38,7 +38,7 @@ class Prestations extends React.Component {
                     </div>
                 </div>
                 <div className="theme">
-                    <div className="details">
+                    <div id="formation">
                     <h2>Marketing</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
                         industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
@@ -49,7 +49,7 @@ class Prestations extends React.Component {
                     </div>
                 </div>
                 <div className="theme">
-                    <div className="details">
+                    <div id="design">
                     <h2>Design</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
@@ -60,7 +60,7 @@ class Prestations extends React.Component {
                     </div>
                 </div>
                 <div className="theme">
-                    <div className="details">
+                    <div id="developpement">
                     <h2>Developpement</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 

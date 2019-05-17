@@ -3,21 +3,25 @@ import { Link } from 'gatsby'
 
 
 const Menu = (props) => (
-    <div className="navbar">
-        <div class="subnav">
-            <div className="subnavbtn">Menu</div>
-            <div className="subnav-content">
+    <div className="menu">
+            <div className="side-menu">
+            <h3>Prométhée</h3>
+                <p>Agence digitale ESS</p>
                 <ul>
-                    <li id='home'><Link to="/"><i >Home</i></Link></li>
                     <li id='es'><Link to="/ess"><i>ESS ?</i></Link></li>
+                    <div className="bordermenu"></div>
                     <li id='services'><Link to="/prestations"><i>Services</i></Link></li>
+                    <div className="bordermenu"></div>
                     <li id='projets'><Link to="/realisations"><i>Projets</i></Link></li>
-                    <li id='partenariats'><Link to="/partenariats"><i>Partenariats</i></Link></li>
+                    <div className="bordermenu"></div>
+                    <li id='partenariats'><Link to="/partenariat"><i>Partenariats</i></Link></li>
+                    <div className="bordermenu"></div>
                     <li id='equipe'><Link to="/equipe"><i>Equipe</i></Link></li>
+                    <div className="bordermenu"></div>
                     <li id='blog'><Link to="/blog"><i>Blog</i></Link></li>
+                    <div className="bordermenu"></div>
                 </ul>
             </div>
-	    </div>
     </div>
 );
 export default Menu;
