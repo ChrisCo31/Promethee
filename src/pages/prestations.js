@@ -8,8 +8,8 @@ class Prestations extends React.Component {
     render () {
         return (
             <Layout>
-       <div className="universe">
-                <div className="theme">
+       <div className="prestations">
+
                     <div id="conseil">
                     <h2>Conseils</h2>
                     <ul>
@@ -24,10 +24,8 @@ class Prestations extends React.Component {
                                         <li>Pilotage et gestion de projet web</li>
                                     </ul>
                     </div>
-                </div>
-                <div className="theme">
                     <div id="marketing">
-                    <h2>Conseils</h2>
+                    <h2>Marketing</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing
                         and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
                         ever since the 1500s, when an unknown printer took a galley of type and scrambled it 
@@ -36,10 +34,8 @@ class Prestations extends React.Component {
                         elease of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
                         Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
-                </div>
-                <div className="theme">
                     <div id="formation">
-                    <h2>Marketing</h2>
+                    <h2>Formations</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
                         industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type 
                         and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
@@ -47,8 +43,6 @@ class Prestations extends React.Component {
                         with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
                         publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
-                </div>
-                <div className="theme">
                     <div id="design">
                     <h2>Design</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -58,8 +52,6 @@ class Prestations extends React.Component {
                         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
                         versions of Lorem Ipsum.</p>
                     </div>
-                </div>
-                <div className="theme">
                     <div id="developpement">
                     <h2>Developpement</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing
@@ -69,9 +61,7 @@ class Prestations extends React.Component {
                         electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the 
                         elease of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
                         Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div>
-                </div>
-                
+                    </div>           
     </div>
     <div id="contact">
         <article id="box_contact">

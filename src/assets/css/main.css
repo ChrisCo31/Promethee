@@ -200,24 +200,29 @@ h6 {
 /*=====================================================**
 **                  PRESTATIONS                                **
 **=====================================================*/
-.universe{
+.prestations{
   margin-left:60px;
   background-color:#67C27D;
 }
 #conseil{
   background-color: #5E8EBE;
+  padding:150px;
 }
 #formation{
     background-color: #91C1E6;
+    padding:150px;
   }
 #marketing{
     background-color: #67C27D;
+    padding:150px;
   }
 #design{
       background-color: #00b355;
+      padding:150px;
     }
 #developpement{
   background-color: #5E7CBA;
+  padding:150px;
 }
 #contact {
   margin : 0 auto;
