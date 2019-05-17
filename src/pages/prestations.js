@@ -11,11 +11,18 @@ class Prestations extends React.Component {
        <div className="universe">
                 <div className="theme">
                     <div className="details">
-                    <h2>Formation</h2>
-                    <p>Pour accompagner vos collaborateurs dans la transformation digitale. La digitalisation concerne tous les corps de métier, 
-                        transformant l’organisation dans son ensemble. Cette révolution numérique a pour but de déconstruire les silos 
-                        qui existent en interne, pour installer le digital non plus comme un département à part, mais comme une 
-                        composante essentielle de la vision de l’entreprise</p>
+                    <h2>Conseils</h2>
+                    <ul>
+                    <li>Analyse de la performance, des indicateurs et du trafic</li>
+                                        <li>Audit des besoins</li>
+                                        <li>Choix technologique</li>
+                                        <li>Formalisation de la strategie</li>
+                                        <li>Conseil et rédaction de cahier des charges</li>
+                                        <li>Gestion de projets web</li>
+                                        <li>Accompagnement sur les appels d'offre, analyse des offres et choix des prestatires</li>
+                                        <li>Negociation avec les prestataires</li>
+                                        <li>Pilotage et gestion de projet web</li>
+                                    </ul>
                     </div>
                 </div>
                 <div className="theme">
@@ -67,7 +74,9 @@ class Prestations extends React.Component {
                 
     </div>
     <div id="contact">
-        <Contact />
+        <article id="box_contact">
+            <Contact />
+        </article>
     </div>
             </Layout>
             

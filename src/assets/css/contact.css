@@ -1,27 +1,32 @@
+input {
+  background-color: white;
+  text-decoration: none;
+  
+}
+
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #555;
+
   }
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    color: #5e7cba;
   }
   textarea {
     width: 100%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #555;;
     border-radius: 4px;
     resize: none;
   }
   input[type=submit]{
-    background-color: orange;
+    background-color: #5e7cba;
     border: none;
-    color: black;
+    color: white;
     padding: 16px 32px;
     text-decoration: none;
     border-radius: 4px;
@@ -30,5 +35,18 @@ input[type=text] {
     transition: 0.3
   }
   input[type=submit]:hover{
-    background-color: orangered;
+    background-color: #5e7cba;
   }
+#message{
+  background-color:white;
+  border : none;
+  color: black;
+}
+#email{
+  border:none;
+  color: black;
+}
+#name {
+  border:none;
+  color: black;
+}
