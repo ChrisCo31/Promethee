@@ -1,5 +1,4 @@
 import React from "react";
-import arrowRight from "../assets/css/arrowRight.png";
 
 
 const Banner = () => (
