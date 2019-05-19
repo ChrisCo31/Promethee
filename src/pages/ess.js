@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/Layout'
-import Contact from '../components/Contact'
+import Layout2 from '../components/Layout2'
+
 class Ess extends React.Component {
     render () {
         return (
-            <Layout>
+            <Layout2>
                   <div id="main">
                     <section id="articles" className="titles"> 
                         <div id="ess">
@@ -35,15 +35,9 @@ class Ess extends React.Component {
                                 
                             </article>
                         </div>
-                    </section>
-                    <div id="contact">
-                        <article id="box_contact">
-                            <Contact />
-                        </article>
-                    </div>
-                   
+                    </section>                   
                   </div>
-            </Layout>   
+            </Layout2>   
         )
     }
 }

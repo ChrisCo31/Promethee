@@ -13,16 +13,16 @@ class HomeIndex extends React.Component {
                             <article className="zoom" id="box_1">
                                 <Link to="/ess" id="link" >
                                     <header className="major">
-                                        <h3>ESS ?</h3>
-                                        <p> What is it </p> 
+                                        <h3>Vous avez dit ESS ?</h3>
+                                        <p>  </p> 
                                     </header>
                                 </Link>
                             </article>                           
                             <article className="zoom" id="box_2">
                             <Link to="/prestations" id="link" >
                                 <header className="major">
-                                    <h3>Services</h3>
-                                    <p>What we offer</p>
+                                    <h3>Découvrez nos Prestations !</h3>
+
                                 </header>
                             </Link>
                             </article>
@@ -31,8 +31,7 @@ class HomeIndex extends React.Component {
                         <article  className ="zoom" id="box_3">
                             <Link to="/realisations" id="link" >
                                 <header className="major">
-                                    <h3>Projets</h3>
-                                    <p>What we do</p>
+                                    <h3>Un aperçu de nos Réalisations...</h3>
                                 </header>
                             </Link>
                         </article>
@@ -42,26 +41,25 @@ class HomeIndex extends React.Component {
                         </div>
                         <div id="third">
                             <article className="zoom" id="box_4" >
-                            <Link to="/partenariats" id="link" >
+                            <Link to="/partenariat" id="link" >
                                 <header className="major">
-                                    <h3>partenariat</h3>
-                                    <p>What we think</p>
+                                    <h3>Devenons Partenaires</h3>
                                 </header>
                             </Link>
                             </article>
                             <article className="zoom" id="box_5">
                                 <Link to="/equipe" id="link" >
                                     <header className="major">
-                                        <h3>Equipe</h3>
-                                        <p>Who we are</p>
+                                        <h3>Qui sommes nous ?</h3>
+
                                     </header>
                                 </Link>
                             </article>
                             <article className="zoom" id="box_6" >
                                 <Link to="/blog" id="link" >
                                     <header className="major">
-                                        <h3>Blog</h3>
-                                        <p>What we think</p>
+                                        <h3>Visitez notre Blog</h3>
+
                                     </header>
                                 </Link>
                             </article>

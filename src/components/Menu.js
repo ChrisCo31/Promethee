@@ -10,9 +10,9 @@ const Menu = (props) => (
                 <ul>
                     <li id='es'><Link to="/ess"><i>ESS ?</i></Link></li>
                     <div className="bordermenu"></div>
-                    <li id='services'><Link to="/prestations"><i>Services</i></Link></li>
+                    <li id='services'><Link to="/prestations"><i>Prestations</i></Link></li>
                     <div className="bordermenu"></div>
-                    <li id='projets'><Link to="/realisations"><i>Projets</i></Link></li>
+                    <li id='projets'><Link to="/realisations"><i>Réalisations</i></Link></li>
                     <div className="bordermenu"></div>
                     <li id='partenariats'><Link to="/partenariat"><i>Partenariats</i></Link></li>
                     <div className="bordermenu"></div>

@@ -4,7 +4,7 @@ const Footer = (props) => (
     <footer id="footer">
         <div className="footerPrez">
         <h3>Prométhée</h3>
-        <p> Agence digitale centrée sur le developpement sociale equitable</p>      
+        <p> Agence digitale centrée sur le développement social équitable</p>      
         </div><br />
         <div className="footerComp">
             <ul className="icons">
